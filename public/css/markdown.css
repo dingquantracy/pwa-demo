@@ -1,0 +1,290 @@
+.md-body {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #777;
+    padding: 0 20px 20px;
+    margin: 0 auto
+}
+
+.md-body p,.md-body blockquote,.md-body ul,.md-body ol,.md-body dl,.md-body table,.md-body pre {
+    margin: 15px 0
+}
+
+.md-body h1,.md-body h2,.md-body h3,.md-body h4,.md-body h5,.md-body h6 {
+    margin: 10px 0 10px;
+    padding: 0;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased
+}
+
+.md-body h1 tt,.md-body h1 code,.md-body h2 tt,.md-body h2 code,.md-body h3 tt,.md-body h3 code,.md-body h4 tt,.md-body h4 code,.md-body h5 tt,.md-body h5 code,.md-body h6 tt,.md-body h6 code {
+    font-size: inherit
+}
+
+.md-body h1 {
+    font-size: 28px;
+    line-height: 60px;
+    color: #555
+}
+
+.md-body h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    color: #000
+}
+
+.md-body h3 {
+    font-size: 18px
+}
+
+.md-body h4 {
+    font-size: 16px
+}
+
+.md-body h5 {
+    font-size: 14px
+}
+
+.md-body h6 {
+    color: #777;
+    font-size: 14px
+}
+
+.md-body body>h2:first-child,.md-body body>h1:first-child,.md-body body>h1:first-child+h2,.md-body body>h3:first-child,.md-body body>h4:first-child,.md-body body>h5:first-child,.md-body body>h6:first-child {
+    margin-top: 0;
+    padding-top: 0
+}
+
+.md-body a:first-child h1,.md-body a:first-child h2,.md-body a:first-child h3,.md-body a:first-child h4,.md-body a:first-child h5,.md-body a:first-child h6 {
+    margin-top: 0;
+    padding-top: 0
+}
+
+.md-body h1+p,.md-body h2+p,.md-body h3+p,.md-body h4+p,.md-body h5+p,.md-body h6+p {
+    margin-top: 10px
+}
+
+.md-body a {
+    color: #4183C4;
+    text-decoration: none
+}
+
+.md-body a:hover {
+    text-decoration: underline
+}
+
+.md-body ul,.md-body ol {
+    padding-left: 30px
+}
+
+.md-body ul {
+    list-style: disc outside none
+}
+
+.md-body ul li>:first-child,.md-body ol li>:first-child,.md-body ul li ul:first-of-type,.md-body ol li ol:first-of-type,.md-body ul li ol:first-of-type,.md-body ol li ul:first-of-type {
+    margin-top: 0;
+}
+
+.md-body ul ul,.md-body ul ol,.md-body ol ol,.md-body ol ul {
+    margin-bottom: 0
+}
+
+.md-body ul li{
+    list-style-type: circle
+}
+
+.md-body dl {
+    padding: 0
+}
+
+.md-body dl dt {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px
+}
+
+.md-body dl dt:first-child {
+    padding: 0
+}
+
+.md-body dl dt>:first-child {
+    margin-top: 0
+}
+
+.md-body dl dt>:last-child {
+    margin-bottom: 0
+}
+
+.md-body dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px
+}
+
+.md-body dl dd>:first-child {
+    margin-top: 0
+}
+
+.md-body dl dd>:last-child {
+    margin-bottom: 0
+}
+
+.md-body ::-webkit-scrollbar {
+    width: 15px;
+    height: 15px
+}
+
+.md-body ::-webkit-scrollbar-button:start:decrement,.md-body ::-webkit-scrollbar-button:end:increment {
+    display: block;
+    width: 0;
+    height: 0
+}
+
+.md-body ::-webkit-scrollbar-button {
+    background-color: rgba(0,0,0,.2)
+}
+
+.md-body ::-webkit-scrollbar-corner {
+    background-color: #eee
+}
+
+.md-body ::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    background-color: whitesmoke;
+    border: solid #fff;
+    border-width: 0
+}
+
+.md-body ::-webkit-scrollbar-track-piece:vertical {
+    box-shadow: inset 1px 0 0 rgba(0,0,0,.14),inset -1px 0 0 rgba(0,0,0,.05)
+}
+
+.md-body ::-webkit-scrollbar-track-piece:horizontal {
+    box-shadow: inset 0 1px 0 rgba(0,0,0,.14),inset 0 -1px 0 rgba(0,0,0,.05)
+}
+
+.md-body ::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.1);
+    background-clip: padding-box;
+    border: solid transparent;
+    min-height: 24px
+}
+
+.md-body ::-webkit-scrollbar-thumb:vertical {
+    border-width: 1px 1px 1px 2px;
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.1)
+}
+
+.md-body ::-webkit-scrollbar-thumb:horizontal {
+    border-width: 2px 1px 1px;
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset -1px 0 0 rgba(0,0,0,.1)
+}
+
+.md-body ::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: rgba(0,0,0,.3);
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.5),inset 0 -1px 0 rgba(0,0,0,.3)
+}
+
+.md-body ::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: rgba(0,0,0,.3);
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.5),inset -1px 0 0 rgba(0,0,0,.3)
+}
+
+.md-body pre,.md-body code,.md-body tt {
+    font-size: 12px;
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    word-break: break-all
+}
+
+.md-body tt {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+    border-radius: 3px
+}
+
+.md-body code{
+    margin: 0 1px;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: .9em;
+    color: #bd4147;
+    background-color: #f7f7f9;
+}
+
+.md-body pre>code {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    border: 0;
+    background: transparent
+}
+
+.md-body pre.prettyprint {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+    max-height: 500px
+}
+
+.md-body pre code,.md-body pre tt {
+    background-color: transparent;
+    border: 0
+}
+
+.md-body blockquote {
+    border-left: 4px solid #DDD;
+    padding: 0 15px;
+    color: #777
+}
+
+.md-body blockquote>:first-child {
+    margin-top: 0
+}
+
+.md-body blockquote>:last-child {
+    margin-bottom: 0
+}
+
+.md-body hr {
+    clear: both;
+    margin: 15px 0;
+    height: 0;
+    overflow: hidden;
+    border: 0;
+    background: transparent;
+    border-bottom: 4px solid #ddd;
+    padding: 0
+}
+
+.md-body table {
+    border-collapse: collapse
+}
+
+.md-body table th {
+    font-weight: 700
+}
+
+.md-body table th,.md-body table td {
+    border: 1px solid #ccc;
+    padding: 6px 13px
+}
+
+.md-body table tr {
+    border-top: 1px solid #ccc;
+    background-color: #fff
+}
+
+.md-body table tr:nth-child(2n) {
+    background-color: #f8f8f8
+}
+
+.md-body img {
+    max-width: 100%
+}
